@@ -80,3 +80,5 @@ Prevents the modal from closing. Can be called from within a 'ok' or 'cancel' ev
       //Do some validation etc.
       if (!isValid) modal.preventClose();
     });
+
+Matt Voss
