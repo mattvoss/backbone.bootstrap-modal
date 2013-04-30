@@ -165,7 +165,7 @@
       });
 
       // listener for hidden
-      $el.one('hidden', function() {
+      $el.one('hidden', function(e) {
          // Ignore events propagated from interior objects, like bootstrap tooltips
         if(e.target !== e.currentTarget){
           return $el.one('hidden', onHidden);
